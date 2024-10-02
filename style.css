@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#F57D1F, #EBF400);
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    font-size: 3rem;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-weight:600;
+    transition: background-color 0.3s ease;
+}
+
+#startStopBtn{
+    background:green;
+    color:white;
+    font-weight:600;
+}
+
+#startStopBtn:hover{
+    background-color:rgba(0, 128, 0, 0.765);
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.laps ul li {
+    margin: 5px 0;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
